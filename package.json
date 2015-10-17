@@ -1,0 +1,25 @@
+{
+  "name": "OnePieceTCBelgium",
+  "version": "1.0.0",
+  "description": "Bot for turtle times and barrel break",
+  "author": "SuperBeaver",
+  "license": "GPL-2.0",
+  
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheSuperBeaver/onepiecetcbelgium"
+  },
+  
+  "main": "bin/bot.js",
+  "scripts": {
+    "start": "node bin/bot.js"
+  },
+  
+  "dependencies": {
+    "async": "^1.4.1",
+    "progress": "^1.1.8",
+    "request": "^2.60.0",
+    "slackbots": "^0.3.0",
+    "sqlite3": "^3.0.10"
+  }
+}
