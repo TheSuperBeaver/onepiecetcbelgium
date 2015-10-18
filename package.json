@@ -10,9 +10,9 @@
     "url": "https://github.com/TheSuperBeaver/onepiecetcbelgium"
   },
   
-  "main": "bin/bot.js",
+  "main": "bot.js",
   "scripts": {
-    "start": "node bin/bot.js"
+    "start": "node bot.js"
   },
   
   "dependencies": {

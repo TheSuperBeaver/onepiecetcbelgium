@@ -8,7 +8,7 @@
  * @author SuperBeaver
  */
 
-var TurtlesBot = require('../lib/turtlesbot');
+var TurtlesBot = require('./lib/turtlesbot');
 
 /**
  * Environment variables used to configure the bot:
@@ -18,7 +18,7 @@ var TurtlesBot = require('../lib/turtlesbot');
  *  BOT_DB_PATH: the path of the SQLite database used by the bot
  *  BOT_NAME: the username you want to give to the bot within your organisation.
  */
-var token = process.env.BOT_API_KEY || require('../token');
+var token = process.env.BOT_API_KEY || require('./token');
 var dbPath = process.env.BOT_DB_PATH;
 var name = process.env.BOT_NAME;
 
